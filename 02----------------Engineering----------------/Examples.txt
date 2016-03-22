@@ -1,0 +1,26 @@
+To add Landscap copy layout.xml
+and paste it as layout-land.
+
+To make only landscape view:
+
+android:screenOrientation="landscape"
+android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+To write something on the screen:
+
+Toast.makeText(getApplicationContext(), "Sample Text", Toast.LENGTH_LONG).show();
+
+How To play Gifs
+
+https://www.youtube.com/watch?v=vZonJM5z_Pc
+
+How To Play sounds on click
+
+public void onClick(View v) {
+			final MediaPlayer mp = MediaPlayer.create(getBaseContext(),R.raw.click);
+			mp.start();......}
+
+Another option : 
+MediaPlayer mysound;
+mysound = MediaPlayer.create(this,R.raw.click);
+mysound.start();

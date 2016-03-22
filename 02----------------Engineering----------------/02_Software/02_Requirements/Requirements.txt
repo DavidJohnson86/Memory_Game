@@ -1,0 +1,7 @@
+The font of the application should be a non -standard asset.
+
+Splash - This screen acts as a startup screen, with the game logo and version. It might also play some music.
+Menu - On this screen, a user can choose from among several options, including playing the game, viewing the scores, and reading the help text.
+Play - This screen is where game play actually takes place.
+Scores - This screen displays the highest scores for the game (including high scores from other players), providing players with a challenge to do better.
+Help - This screen displays instructions for how to play the game, including controls, goals, scoring methods, tips, and tricks.

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout03"
+    android:background="@drawable/background">
+
+
+<TableRow android:id="@+id/TableRow04"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"></TableRow><TableRow
+    android:id="@+id/TableRow05"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tv1" android:paddingLeft="10sp" android:layout_weight="1"></TextView></TableRow><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:text="Memory Game" android:visibility="visible" android:textSize="30sp" android:paddingTop="20sp" android:textColor="#EEFFAA" android:id="@+id/mainTitle"></TextView>
+
+</TableRow><TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:typeface="normal" android:bufferType="normal" android:textColor="#FFEEAA" android:id="@+id/navigate" android:text="This is so high"></TextView></TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"></TableRow>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/buttons">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/four"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="52dp"
+            android:background="@drawable/button_memory_4x4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/five"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/four"
+            android:layout_marginBottom="41dp"
+            android:background="@drawable/button_memory_4x5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/six"
+            android:layout_alignBottom="@+id/four"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="61dp"
+            android:background="@drawable/button_memory_4x6" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seven"
+            android:layout_alignBottom="@+id/five"
+            android:layout_alignRight="@+id/six"
+            android:background="@drawable/button_memory_4x7" />
+
+    </RelativeLayout>
+
+
+</TableLayout>
